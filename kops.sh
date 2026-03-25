@@ -29,7 +29,6 @@ kops create cluster --name=prathik.k8s.local --zones=ap-south-1a,ap-south-1b --c
 ## --node-volume-size=20 --control-plane-volume-size=20 --ssh-public-key=my-keypair.pub --image=ami-02d26659fd82cf299 --networking=calico --topology=public
 kops update cluster --name prathik.k8s.local --yes --admin
 
-
 wq!
       
 sh kops.sh
